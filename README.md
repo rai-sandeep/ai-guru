@@ -1,5 +1,9 @@
 # AI GURU
 
+Frontend for [Bhagavad Gita AI Guru](https://rai-sandeep.github.io/ai-guru/).
+
+**Backend repo**: [ai-guru](https://github.com/rai-sandeep/ai-bhagavad-gita-lambda)
+
 This code was generated with [ChatGPT](https://chat.openai.com).
 
 ## Prompts used
