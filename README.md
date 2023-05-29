@@ -35,7 +35,7 @@ This code was generated with [ChatGPT](https://chat.openai.com).
 1. Prompt ChatGPT and copy generated code to corresponding files
 2. Run `ng serve` and validate in browser at `http://localhost:4200/`
 3. Push and Deploy
-   1. Using script: `sh pushdeploy.sh "Commit message"`
+   1. Using script: `sh cicd.sh`
    2. Or manually:
       1. Push to GitHub
          1. `git status`

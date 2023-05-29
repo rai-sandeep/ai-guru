@@ -20,7 +20,7 @@ export class AppComponent {
   constructor(private http: HttpClient) {}
 
   submitForm() {
-    const url = 'https://jj574jft7k7y7i7dqqai3pe7kq0sfdno.lambda-url.ap-south-1.on.aws';
+    const url = 'https://yuzcyvhq42dcy2urvdxtwgn2mu0jkcfp.lambda-url.ap-south-1.on.aws';
     const payload = { payload: this.inputValue };
 
     this.isButtonDisabled = true; // Disable the button
