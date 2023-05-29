@@ -21,6 +21,14 @@ form {
     align-items: center;
     margin-top: 20px;
   }
+
+  label {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #888;
+  }
   
   input[type="text"] {
     padding: 10px;

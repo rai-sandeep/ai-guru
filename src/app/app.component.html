@@ -6,7 +6,8 @@
 <!-- app.component.html -->
 <main>
   <form (ngSubmit)="submitForm()">
-    <input type="text" [(ngModel)]="inputValue" name="inputField" placeholder="ENTER HERE" />
+    <label for="inputField">WHAT ARE YOU STRUGGLING WITH?</label>
+    <input type="text" [(ngModel)]="inputValue" id="inputField" name="inputField" placeholder="ENTER HERE" />
     <button type="submit" [disabled]="isButtonDisabled">
       <span *ngIf="isGettingWisdom">GETTING WISDOM...</span>
       <span *ngIf="!isGettingWisdom">GET WISDOM</span>
